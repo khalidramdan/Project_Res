@@ -104,12 +104,12 @@ header .icons i#menu-bar{
     flex: 1 1 45rem;
 }
 .home .home-slide .slide .content span{
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: var(--Peach-gradient);
     font-weight: bold;
 }
 .home .home-slide .slide .content h3{
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--green);
     font-weight: bold;
 }
@@ -144,6 +144,78 @@ header .icons i#menu-bar{
     font-weight: bold;
 }
 
+.header-Menu{
+    text-align: center;
+    color: var(--green);
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+.MenuHead{
+    color: var(--black);
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(28rem,1fr));
+    gap: 1.5rem;
+
+}
+.box-container .box{
+    padding: 2.5rem;
+    background-color: var(--white);
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.box-container .box a.fa-heart,
+.box-container .box a.fa-eye{
+    position: absolute;
+    top: 1rem;
+    font-size: 2rem;
+    color: var(--green);
+    line-height: 4.2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--white); 
+
+}
+.box-container .box a.fa-heart{
+    right: 1.5rem;
+}
+.box-container .box a.fa-eye{
+    left: 1.5rem;
+}
+.box-container .box a.fa-heart:hover,
+.box-container .box a.fa-eye:hover{
+    background-color: var(--green);
+    color: var(--white);
+}
+.box-container .box img{
+    width: 20rem;
+    height: 17rem;
+    margin: 1rem 0;
+    background-size: cover;
+    border-radius: 20px;
+}
+.box-container .box h3{
+    color: var(--black);
+    font-size: 2.5rem;
+    margin-bottom: .8rem;
+}
+.box-container .box .stars{
+    margin: 10px 20px;
+}
+.box-container .box .stars .fa-star,.box-container .box .stars .fa-star-half-alt{
+    font-size: 2rem;
+    color: var(--yellow-gradient);
+}
 
 
 
