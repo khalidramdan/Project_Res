@@ -216,6 +216,11 @@ header .icons i#menu-bar{
     font-size: 2rem;
     color: var(--yellow-gradient);
 }
+.box-container .box span{
+    font-size: 2rem;
+    color: #FF7979;
+    font-weight: bold;
+}
 
 
 
