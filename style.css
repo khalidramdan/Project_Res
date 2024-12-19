@@ -144,13 +144,16 @@ header .icons i#menu-bar{
     font-weight: bold;
 }
 
-.header-Menu{
+.sub-heading{
     text-align: center;
     color: var(--green);
-    font-size: 4rem;
+    font-size: 3rem;
     padding-top: 1rem;
 }
-.MenuHead{
+.sub-heading i{
+    margin-right: 10px;
+}
+.heading{
     color: var(--black);
     font-size: 3.5rem;
     padding-bottom: 2rem;
@@ -183,7 +186,7 @@ header .icons i#menu-bar{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--white); 
+    background-color: var(--white);
 
 }
 .box-container .box a.fa-heart{
@@ -223,11 +226,63 @@ header .icons i#menu-bar{
 }
 
 
+/* section about us */
 
+.section-about .about-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    align-items: center;
+}
+.section-about .about-container .image-about{
+    flex: 1 1 45rem;
+}
+.section-about .about-container .image-about img{
+    width: 100%;
+}
+.section-about .about-container .content-about{
+    flex: 1 1 45rem;
+}
+.section-about .about-container .content-about h3{
+    font-size: 3rem;
+    color: var(--black);
+    padding: .5rem;
+}
+.section-about .about-container .content-about p{
+    font-size: 1.5rem;
+    /* color: var(--green); */
+    line-height: 2rem;
+    padding: .5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section-about .about-container .content-about .shipping{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 0;
+    margin-top: .5rem;
+    gap: .8rem;
+}
+.section-about .about-container .content-about .shipping .icons{
+    background-color: var(--light-color);
+    border: 1px solid var(--green);
+    border-radius: .5rem;
+    padding: 1.5rem 1rem;
+    flex: 1 1 17rem;
+}
+.section-about .about-container .content-about .shipping .icons:hover{
+    background-color: var(--green);
+    border: none;
+}
+.section-about .about-container .content-about .shipping .icons i{
+    font-size: 2.5rem;
+    color: var(--Peach-gradient);
+}
 
-
-
-
+.section-about .about-container .content-about .shipping .icons span{
+    font-size: 1.5rem;
+    color: var(--black);
+}
 
 
 
