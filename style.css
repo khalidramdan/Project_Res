@@ -285,7 +285,49 @@ header .icons i#menu-bar{
 }
 
 
+/* section contact use */
 
+.section-contactUs .contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.section-contactUs .contact .image-contact{
+    flex: 1 1 45rem;
+}
+.section-contactUs .contact .image-contact img{
+    width: 100%;
+}
+
+.section-contactUs .contact .content-contact{
+    flex: 1 1 45rem;
+}
+.section-contactUs .contact .content-contact form{
+   display: grid;
+   row-gap: 12px;
+} 
+.section-contactUs .contact .content-contact form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--black);
+}
+.section-contactUs .contact .content-contact form input,select{
+    padding: .5rem;
+    border: 1px solid var(--green);
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.section-contactUs .contact .content-contact form input[type="submit"]{
+    font-size: 2rem;
+    background-color: var(--white);
+}
+.section-contactUs .contact .content-contact form input[type="submit"]:hover{
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+}
 
 
 
